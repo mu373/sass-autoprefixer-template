@@ -1,0 +1,25 @@
+{
+  "name": "sass-autoprefixer-example",
+  "version": "1.0.0",
+  "description": "Compile SCSS to CSS with vendor prefixes",
+  "author": "mu373",
+  "license": "MIT",
+  "scripts": {
+    "sass-build": "sass scss/style.scss css/style.css",
+    "autoprefixer": "postcss --use autoprefixer --no-map css/style.css -d css/",
+    "css": "npm run sass-build && npm run autoprefixer",
+    "watch:css": "watch 'npm run css' scss/"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "sass": "^1.32.5",
+    "watch": "^1.0.2"
+  },
+  "browserslist": [
+    "> 1% in JP",
+    "Android >= 7",
+    "iOS >= 10",
+  ]
+}

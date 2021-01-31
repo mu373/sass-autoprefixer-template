@@ -20,6 +20,6 @@
   "browserslist": [
     "> 1% in JP",
     "Android >= 7",
-    "iOS >= 10",
+    "iOS >= 10"
   ]
 }

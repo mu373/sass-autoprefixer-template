@@ -13,3 +13,4 @@ Compile SCSS to CSS with vendor prefixes
 - Make SCSS files in `/scss` directory
 - Let it watch for changes and compile
     - `npm run watch:css`
+- Compiled CSS with vendor prefixes are ready in `/css` directory!
